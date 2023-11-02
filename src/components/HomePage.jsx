@@ -44,7 +44,7 @@ const HomePage = ({ notes, handleDelete, handleEdit }) => {
       <div className="w-full mt-8">
         <div
           className="w-full grid place-items-center
-         gap-y-[10px] lg:grid-cols-3 md:grid-cols-2 px-4 pb-20"
+         gap-y-[10px] lg:grid-cols-4 md:grid-cols-3 px-4 pb-20"
         >
           <Notes notes={notes} handleDelete={handleDelete} />
         </div>
@@ -57,6 +57,6 @@ const HomePage = ({ notes, handleDelete, handleEdit }) => {
       </div>
     </>
   );
-}
+};
 
 export default HomePage;
